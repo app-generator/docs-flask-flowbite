@@ -1,4 +1,5 @@
 import './main.css'; 
+import 'flowbite';
 
 document.getElementById('testApi').addEventListener('click', async () => {
     try {

@@ -3,12 +3,10 @@ module.exports = {
   content: [
     "./templates/**/*.html",
     "./static/src/**/*.js",
+    "./node_modules/flowbite/**/*.js" 
   ],
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["light", "dark"],
-  },
+  plugins: [require("flowbite/plugin")]
 }
